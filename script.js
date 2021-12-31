@@ -1,4 +1,6 @@
-let saludo = "Buen dia estudiante";
+//Clase 01
+
+/* let saludo = "Buen dia estudiante";
 alert(saludo);
 
 let nombre = prompt("Por favor ingresa tu nombre");
@@ -17,4 +19,9 @@ alert(salarioDoble);
 
 let despedida = alert(
   `Gracias ${nombre}, nos pondremos en contacto muy pronto sobre el curso de ${curso}`
-);
+); */
+
+//Clase 02
+
+let saludo = "Buen dia estudiante";
+alert(saludo);
