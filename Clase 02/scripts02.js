@@ -1,53 +1,49 @@
-//Clase 02
+//Clase 02 = Control de flujos
 
 let saludo =
-  "Hola querido lector: consulta lo que el universo tiene para ti. No olvides que tus respuestas deberán ser escritas con la primera letra mayúscula";
+  "Hola querido lector: consulta lo que el universo tiene para ti";
 alert(saludo);
 
-let pregunta1 = prompt("¿Qué signo zodiacal eres?");
-let signo1 = "Aries";
-let signo2 = "Tauro";
-let signo3 = "Geminis";
-let signo4 = "Cancer";
-let signo5 = "Leo";
-let signo6 = "Virgo";
-let signo7 = "Libra";
-let signo8 = "Escorpion";
-let signo9 = "Sagitario";
-let signo10 = "Capricornio";
-let signo11 = "Acuario";
-let signo12 = "Piscis";
+let signoUsuario = prompt("¿Qué signo zodiacal eres?").toLowerCase();
 
-if (pregunta1 == signo1) {
+if (signoUsuario == "aries") {
   alert("Eres muy adaptable y puedes llevarte bien con los demas");
-} else if (pregunta1 == signo2) {
+} 
+else if (signoUsuario == "tauro") {
   alert("Eres fuerte y resistente a las adversidades");
-} else if (pregunta1 == signo3) {
+} 
+else if (signoUsuario == "geminis") {
   alert("Eres una persona equilibrada");
-} else if (pregunta1 == signo4) {
+}  
+else if (signoUsuario == "cancer") {
   alert("Eres muy simpático y hogareño");
-} else if (pregunta1 == signo5) {
+} 
+else if (signoUsuario == "leo") {
   alert("Eres un líder innato");
-} else if (pregunta1 == signo6) {
+}
+else if (signoUsuario == "virgo") {
   alert("Tienes claro tus planes e ideas para el futuro");
-} else if (pregunta1 == signo7) {
+} 
+else if (signoUsuario == "libra") {
   alert("Eres una persona muy estable");
-} else if (pregunta1 == signo8) {
+} 
+else if (signoUsuario == "escorpion") {
   alert("Tienes habilidades para negociar y alcanzar tus metas");
-} else if (pregunta1 == signo9) {
+} 
+else if (signoUsuario == "sagitario") {
   alert("Puedes ser un poco desordenado");
-} else if (pregunta1 == signo10) {
+} 
+else if (signoUsuario == "capricornio") {
   alert("Siempre encuentras una solución a las cosas");
-} else if (pregunta1 == signo11) {
+} 
+else if (signoUsuario == "acuario") {
   alert("Das sin esperara nada a cambio");
-} else if (pregunta1 == signo12) {
+} 
+else if (signoUsuario == "piscis") {
   alert("Eres de un carácter tranquilo y alivianado");
-} else {
-  alert(
-    "El dato no es del todo correcto. Refresca esta página para intentarlo de nuevo"
-  );
+}   
+  else {
+  alert("El dato no es del todo correcto. Refresca esta página para intentarlo de nuevo");
 }
 
-let aviso = alert(
-  "Gracias por responder (el horóscopo nunca a sido cierto ni lo será. Buenas noches)"
-);
+let aviso = alert("Gracias por participar en el horoscopo de hoy");
